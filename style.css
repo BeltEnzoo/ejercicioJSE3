@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    margin: 20px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button {
+    margin: 0px 20%;
+}
+button{
+    color: aquamarine;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+/*  */
